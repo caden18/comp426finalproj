@@ -1,0 +1,68 @@
+.Joke {
+    text-align: center;
+  }
+/*    */
+  
+  body {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .Joke-link {
+    color: #61dafb;
+  }
+  
+  .categoryList {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    flex-wrap: wrap;
+  }
+  
+  .Joke h1, .App p {
+    color: #e59244
+  }
+  
+  .Joke h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+
+  
+  .boxcontainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 3em;
+    padding-top: 4em;
+  }
+  
+  .BannerContainer {
+    background-color: #13294B;
+    height: 125px;
+  }
+  
+  .banner {
+    display: flex;
+    font-size: 50px;
+    padding: 22px;
+    color: white;
+    font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  .footer {
+      font-size: 10px;
+  }
+  
+ 
+  
+  
